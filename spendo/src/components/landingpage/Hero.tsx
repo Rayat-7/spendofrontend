@@ -50,18 +50,27 @@ function Hero() {
 
 
           {/* Optional: Add a subheading or CTA buttons here */}
-          <p className="mt-6 text-lg md:text-xl text-slate-700 max-w-2xl">
-            Track, manage, and optimize your finances with our intuitive platform.
-          </p>
+          <p className="mt-6 text-lg md:text-xl text-slate-700 max-w-2xl hidden sm:block">
+  Track, manage, and optimize your finances with our intuitive platform.
+</p>
 
-          <div className="mt-8 flex flex-col sm:flex-row gap-4">
+          {/* <div className="mt-8 flex  sm:flex-row gap-4">
             <button className="px-8 py-3 bg-black text-white rounded-full font-medium hover:bg-primary/90 transition-colors">
               Get Started
             </button>
             <button className="px-8 py-3 bg-white text-slate-800 rounded-full font-medium border border-slate-300 hover:bg-slate-100 transition-colors">
               Learn More
             </button>
-          </div>
+          </div> */}
+          <div className="mt-8 flex flex-row gap-4">
+  <button className="px-6 py-2 sm:px-8 sm:py-3 bg-black text-white text-sm sm:text-base rounded-full font-medium hover:bg-primary/90 transition-colors">
+    Get Started
+  </button>
+  <button className="px-6 py-2 sm:px-8 sm:py-3 bg-white text-slate-800 text-sm sm:text-base rounded-full font-medium border border-slate-300 hover:bg-slate-100 transition-colors">
+    Learn More
+  </button>
+</div>
+
         </div>
       </div>
 
