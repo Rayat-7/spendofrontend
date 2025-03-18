@@ -2,7 +2,7 @@ import Image from "next/image";
 import Hero from '@/components/landingpage/Hero'
 import NavBar from "@/components/landingpage/Navbar";
 import CTASection from "@/components/landingpage/CTA";
-import FeaturesSection from "@/components/landingpage/feature";
+import FeaturesSection from "@/components/landingpage/Feature";
 import App from "next/app";
 import AppScreenshots from "@/components/landingpage/Appview";
 import TestimonialsSection from "@/components/landingpage/Testimony";
